@@ -14,7 +14,8 @@ class HeroRepositoryImpl : HeroRepository {
             2 to page2,
             3 to page3,
             4 to page4,
-            5 to page5
+            5 to page5,
+            6 to page6
         )
     }
 
@@ -31,7 +32,7 @@ class HeroRepositoryImpl : HeroRepository {
             family = listOf(
                 "Fugaku",
                 "Mikoto",
-                "Itachi",
+               "Itachi",
                 "Sarada",
                 "Sakura"
             ),
@@ -397,6 +398,55 @@ class HeroRepositoryImpl : HeroRepository {
             )
         )
     )
+    override val page6 = listOf(
+        Hero(
+            id = 16,
+            name = "Edward Elric",
+            image = "/images/edward-elric.jpg",
+            about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+            rating = 4.8,
+            power = 99,
+            month = "Jan",
+            day = "1st",
+            family = listOf(
+                "Unknown"
+            ),
+            abilities = listOf(
+                "White Karma",
+                "Transformation",
+                "Genjutsu"
+            ),
+            natureTypes = listOf(
+                "Unknown"
+            )
+        ),  Hero(
+            id = 17,
+            name = "Zaraki Kenpachi",
+            image = "/images/zaraki-kenpachi.jpg",
+            about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+            rating = 2.1,
+            power = 99,
+            month = "Jan",
+            day = "1st",
+            family = listOf(
+                "Unknown"
+            ),
+            abilities = listOf(
+                "White Karma",
+                "Transformation",
+                "Genjutsu"
+            ),
+            natureTypes = listOf(
+                "Unknown"
+            )
+        )
+
+
+
+    )
+
+
+
 
     override suspend fun getAllHeroes(page: Int): ApiResponse {
         return ApiResponse(
@@ -411,8 +461,8 @@ class HeroRepositoryImpl : HeroRepository {
 
     private fun calculatePage(page: Int) =
         mapOf(
-            PREVIOUS_PAGE_KEY to if (page in 2..5) page.minus(1) else null,
-            NEXT_PAGE_KEY to if (page in 1..4) page.plus(1) else null
+            PREVIOUS_PAGE_KEY to if (page in 2..6) page.minus(1) else null,
+            NEXT_PAGE_KEY to if (page in 1..5) page.plus(1) else null
         )
     /*
     private fun calculatePage(page: Int): Map<String, Int?> {

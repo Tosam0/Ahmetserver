@@ -16,11 +16,11 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
             month = "July",
             day = "23",
             family = listOf(
-                "Fugaku",
-                "Mikoto",
-                "Itachi",
-                "Sarada",
-                "Sakura"
+              "Fugaku",
+              "Mikoto",
+              "Itachi",
+             "Sarada",
+              "Sakura"
             ),
             abilities = listOf(
                 "Sharingan",
@@ -372,6 +372,47 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
             natureTypes = listOf(
                 "Fire",
                 "Earth"
+            )
+        ),
+        Hero(
+            id = 16,
+            name = "Edward Elric",
+            image = "/images/edward-elric.jpg",
+            about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+            rating = 4.8,
+            power = 99,
+            month = "Jan",
+            day = "1st",
+            family = listOf(
+                "Unknown"
+            ),
+            abilities = listOf(
+                "White Karma",
+                "Transformation",
+                "Genjutsu"
+            ),
+            natureTypes = listOf(
+                "Unknown"
+            )
+        ),Hero(
+            id = 17,
+            name = "ahmet",
+            image = "/images/zaraki-kenpachi.jpg",
+            about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+            rating = 2.1,
+            power = 99,
+            month = "Jan",
+            day = "1st",
+            family = listOf(
+                "Unknown"
+            ),
+            abilities = listOf(
+                "White Karma",
+                "Transformation",
+                "Genjutsu"
+            ),
+            natureTypes = listOf(
+                "Unknown"
             )
         )
 

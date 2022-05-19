@@ -398,7 +398,16 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
             id = 17,
             name = "zaraki-kenpachi",
             image = "/images/zaraki-kenpachi.jpg",
-            about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+
+            about = "Kendi Haritanızı Oluşturun\n" +
+                    "\n" +
+                    "Kendinize ait haritalar oluşturarak farklı planları hızlandırabilirsiniz. Oluşturacağınız harita ile gideceğiniz lokasyonu tekrar aramanıza gerek kalmadan haritayı tıklamanız yeterli olacaktır.\n" +
+                    "\n" +
+                    "Kendinize özel haritalar oluşturabilmek için uygulamanın sol köşedeki menü düğmesine (üç çizgi), ardından Yerleriniz'e basın. Bu sekmeden Haritalar'a gidin ve alttaki Harita Oluştur'a basın (veya daha önce yapmış olduğunuz bir haritaya tıklayın).\n" +
+                    "\n" +
+                    "Bu araç, özellikle daha önce hiç gitmediğiniz bölgeleri keşfetmenize yarayacak. Herhangi bir gezi ya da tatil planınız varsa haritaya işaret yerleştirebilir ve farklı gruplara ayırabilirsiniz. Böylece zamanınızı en iyi şekilde değerlendirebilirsiniz.\n" +
+                    "\n" +
+                    "Arkadaşlarınızla ya da ailenizle gideceğiniz bir tatile ortak çalışan ekleyerek 'paylaş' seçeneğini kullanabilirsiniz. Bu şekilde harita üzerinde tatil planında her katılımcı ilginç görülen yerleri işaretleyebilir ve herkesin görmesini sağlayabilir.",
             rating = 2.1,
             power = 99,
             month = "Jan",

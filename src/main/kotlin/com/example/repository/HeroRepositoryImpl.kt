@@ -22,33 +22,36 @@ class HeroRepositoryImpl : HeroRepository {
     override val page1 = listOf(
         Hero(
             id = 1,
-            name = "Sasuke",
-            image = "/images/sasuke.jpg",
+            name = "BTS",
+            image = "/images/bTS.jpg",
             about = "Sasuke Uchiha (うちはサスケ, Uchiha Sasuke) is one of the last surviving members of Konohagakure's Uchiha clan. After his older brother, Itachi, slaughtered their clan, Sasuke made it his mission in life to avenge them by killing Itachi. He is added to Team 7 upon becoming a ninja and, through competition with his rival and best friend, Naruto Uzumaki.",
             rating = 5.0,
             power = 98,
             month = "July",
             day = "23rd",
             family = listOf(
-                "Fugaku",
-                "Mikoto",
-               "Itachi",
-                "Sarada",
-                "Sakura"
+                "Jin",
+                "Suga",
+               "J-Hope",
+                "RM",
+                "Jimin",
+                "V",
+                "Jungkook"
             ),
             abilities = listOf(
-                "Sharingan",
-                "Rinnegan",
-                "Sussano",
-                "Amateratsu",
-                "Intelligence"
+                "Butter",
+                "My Universe",
+                "Dynamite",
+                "Permissions to Dance",
+                "Boy With Luv",
+                "On"
             ),
             natureTypes = listOf(
-                "Lightning",
-                "Fire",
-                "Wind",
-                "Earth",
-                "Water"
+                "K-Pop",
+                "Hip hop",
+                "Pop",
+                "R&B",
+                "EDM"
             )
         ),
         Hero(
@@ -429,7 +432,12 @@ class HeroRepositoryImpl : HeroRepository {
             month = "Jan",
             day = "1st",
             family = listOf(
-                "Unknown"
+                "Ahmet",
+                "Mehmet",
+                "Ahmet",
+                "Mehmet",
+                "Ahmet",
+                "Mehmet"
             ),
             abilities = listOf(
                 "White Karma",

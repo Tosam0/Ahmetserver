@@ -8,33 +8,36 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
     override val heroes = listOf(
         Hero(
             id = 1,
-            name = "Sasuke",
-            image = "/images/sasuke.jpg",
-            about = "Sasuke Uchiha (うちはサスケ, Uchiha Sasuke) is one of the last surviving members of Konohagakure's Uchiha clan. After his older brother, Itachi, slaughtered their clan, Sasuke made it his mission in life to avenge them by killing Itachi. He is added to Team 7 upon becoming a ninja and, through competition with his rival and best friend, Naruto Uzumaki.",
+            name = "BTS",
+            image = "/images/bTS.jpg",
+            about = "BTS, diğer adıyla Bangtan Boys (방탄소년단),[1] Hybe Corporation tarafından oluşturulan, 7 üyeden oluşan Güney Koreli grup. Grubun hayranlarına \"ARMY\" denmektedir. Jin, Suga, J-Hope, RM, Jimin, V ve Jungkook'dan oluşan yedili, albümlerinin çoğunu birlikte yazar ve birlikte üretir. Başlangıçta bir hip hop grubu olan müzikal tarzları, çok çeşitli türleri içerecek şekilde gelişti. Genellikle kişisel ve sosyal sorunlara odaklanan şarkı sözleri, ruh sağlığı, okul çağındaki gençliğin sorunları ve yaşlanma, kayıp, kendini sevme yolculuğu ve bireysellik temalarına değiniyor. Çalışmaları ayrıca genellikle edebiyat ve psikolojik kavramlara atıfta bulunur ve alternatif bir evren hikayesi içerir.",
             rating = 5.0,
-            power = 98,
-            month = "July",
-            day = "23",
+            power = 99,
+            month = "Mayıs",
+            day = "2013",
             family = listOf(
-              "Fugaku",
-              "Mikoto",
-              "Itachi",
-             "Sarada",
-              "Sakura"
+                "Jin",
+                "Suga",
+                "J-Hope",
+                "RM",
+                "Jimin",
+                "V",
+                "Jungkook"
             ),
             abilities = listOf(
-                "Sharingan",
-                "Rinnegan",
-                "Sussano",
-                "Amateratsu",
-                "Intelligence"
+                "Butter",
+                "My Universe",
+                "Dynamite",
+                "Permissions to Dance",
+                "Boy With Luv",
+                "On"
             ),
             natureTypes = listOf(
-                "Lightning",
-                "Fire",
-                "Wind",
-                "Earth",
-                "Water"
+                "K-Pop",
+                "Hip hop",
+                "Pop",
+                "R&B",
+                "EDM"
             )
         ),
         Hero(
@@ -405,7 +408,17 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
             month = "Jan",
             day = "1st",
             family = listOf(
-                "Unknown"
+                "Ahmet",
+                "Mehmet",
+                "Ahmet",
+                "Mehmet",
+                "Ahmet",
+                "Mehmet" , "Ahmet",
+                "Mehmet",
+                "Ahmet",
+                "Mehmet",
+                "Ahmet",
+                "Mehmet"
             ),
             abilities = listOf(
                 "White Karma",

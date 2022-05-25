@@ -56,184 +56,236 @@ class HeroRepositoryImpl : HeroRepository {
         ),
         Hero(
             id = 2,
-            name = "Naruto",
-            image = "/images/naruto.jpg",
-            about = "Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan. He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be shunned by most of Konoha throughout his childhood. After joining Team Kakashi, Naruto worked hard to gain the village's acknowledgement all the while chasing his dream to become Hokage.",
-            rating = 5.0,
+            name = "EXO",
+            image = "/images/exo.jpg",
+            about = "4 üyesi Çin,8 üyesi Güney Kore,olan 12 kişilik Koreli erkek grubudur.Ayrıca Korece ağırlıklı şarkı söylenen Exo-Kve Mandarince ağırlıklı şarkı söylenen Exo-Molmak üzere 2alt grubu vardır.EXO,S.M Entertainment tarafından kurulan Koreli-Çinli karışık 12 kişiden oluşan müzik grubudur.2011 yılında Seoul'da kurulmuştur.EXO,toplamda 12 kişi olup ikişer grup halinde ayrılmışlardır.EXO-Kve EXO-M,performanslarını Çince ve Korece olarak sergilemektedirler.İsimleri Güneş sisteminin dışında olan EXO Planet'ten gelmektedir.EXO,80 kategoride aday gösterilip toplamda 42 ödül kazandı.",
+            rating = 4.8,
             power = 98,
-            month = "Oct",
-            day = "10th",
+            month = "Nisan",
+            day = "2011",
             family = listOf(
-                "Minato",
-                "Kushina",
-                "Boruto",
-                "Himawari",
-                "Hinata"
+                "Xiumin",
+                "Suho",
+                "Lay",
+                "Baekhyun",
+                "Chen",
+                "Chanyeol",
+                "D.O.",
+                "Kai",
+                "Sehun"
             ),
             abilities = listOf(
-                "Rasengan",
-                "Rasen-Shuriken",
-                "Shadow Clone",
-                "Senin Mode"
+                "Overdose",
+                "Growl",
+                "Call Me Bayb",
+                "Wolf",
+                "History",
+                "Love Me Right",
+                "Mama"
             ),
             natureTypes = listOf(
-                "Wind",
-                "Earth",
-                "Lava",
-                "Fire"
-            )
+                "K-Pop",
+                "Hip hop",
+                "Electironik",
+                "R&B",
+                "Dans-pop",
+
+                )
         ),
         Hero(
             id = 3,
-            name = "Sakura",
-            image = "/images/sakura.jpg",
-            about = "Sakura Uchiha (うちはサクラ, Uchiha Sakura, née Haruno (春野)) is a kunoichi of Konohagakure. When assigned to Team 7, Sakura quickly finds herself ill-prepared for the duties of a shinobi. However, after training under the Sannin Tsunade, she overcomes this, and becomes recognised as one of the greatest medical-nin in the world.",
+            name = "Blackpink",
+            image = "/images/blackpink.jpg",
+            about = "Blackpink 블랙핑크,stilize yazılışı BLACKPINK ve BLΛƆKPIИK),2016 yılında YG Entertainment tarafından kurulmuş Güney Koreli kız grubudur.İsimleri neden 'Blackpink'? Grubun adı, genel olarak kadınlık algısı yaratan pembe renge karşılık gelen siyahın birleşiminden oluşuyor.YG Entertainment etiketiyle ilk çıktıklarında, bu isimle 'güzellikten daha fazlasını' temsil etmek istediklerini söylediler.Billboard Dünya Dijital Şarkı Satışları listesine üç kez giren ilk Koreli kız grubuydular. ",
             rating = 4.5,
             power = 92,
             month = "Mar",
-            day = "28th",
+            day = "2016",
             family = listOf(
-                "Kizashi",
-                "Mebuki",
-                "Sarada",
-                "Sasuke"
+                "Jisoo",
+                "Jennie",
+                "Rosé",
+                "Lisa"
             ),
             abilities = listOf(
-                "Chakra Control",
-                "Medical Ninjutsu",
-                "Strength",
-                "Intelligence"
+                "'Ddu-Du Ddu-Du",
+                "Whistle",
+                "Boombayah",
+                "Kiss and Make Up",
+                "Square Up",
             ),
             natureTypes = listOf(
-                "Earth",
-                "Water",
-                "Fire"
+                "K-pop",
+                "EDM",
+                "Hip hop",
+                "trap"
             )
         )
     )
     override val page2 = listOf(
         Hero(
             id = 4,
-            name = "Boruto",
-            image = "/images/boruto.png",
-            about = "Boruto Uzumaki (うずまきボルト, Uzumaki Boruto) is a shinobi from Konohagakure's Uzumaki clan and a direct descendant of the Hyūga clan through his mother. While initially resentful of his father and his absence since becoming Hokage, Boruto eventually comes to respect his father and duties.",
-            rating = 4.9,
-            power = 95,
-            month = "Mar",
-            day = "27th",
+            name = "TXT",
+            image = "/images/txt.jpg",
+            about = "TXT,Tomorrow X Together'ın kısaltmasıdır. Korece'de grubun adı 투모로우바이투게더 (RR: Tumoroubaitugedeo) olarak okunuyor ve Türkçe'de Yarın Birlikteolarak çevriliyor. Adlarının ayrı bir Korece versiyonu yoktur. Web sitelerine göre,Yarın Birlikte nin anlamı Daha iyi bir yarın inşa etme umuduyla tek bir hayal altında bir araya gelen beş kişi demek. TXT,bugüne kadar,çıkış yapması en çok beklenen idol gruplarından biri olmalı.Onlar,2013 yılında debut yapan BTS'ten sonra,Big Hit Entertainment'in ilk erkek grubu ve BTS'in\"küçük kardeşleri\"olduğu için,tanıtıldıkları ilk andan itibaren dünya çapında milyonlarca insanın ilgisini çektiler.",
+            rating = 4.6,
+            power = 94,
+            month = "Mart",
+            day = "2019",
             family = listOf(
-                "Naruto",
-                "Hinata",
-                "Hanabi",
-                "Himawari",
-                "Kawaki"
+                "Soobin",
+                "Yeonjun",
+                "Prodgyu",
+                "Taehyun",
+                "Huening Kai"
             ),
+
             abilities = listOf(
-                "Karma",
-                "Jogan",
-                "Rasengan",
-                "Intelligence"
+                "Good Boy Gone Bad",
+                "PS5",
+                "Opening Sequence",
+                "LOSER=LO♡ER",
+                "Cat & Dog",
+                "Frost",
+                "Anti-Romantic"
+
             ),
             natureTypes = listOf(
-                "Lightning",
-                "Wind",
-                "Water"
+                "K-pop",
+                "Hip hop",
             )
         ),
         Hero(
             id = 5,
-            name = "Sarada",
-            image = "/images/sarada.jpg",
-            about = "Sarada Uchiha (うちはサラダ, Uchiha Sarada) is a kunoichi from Konohagakure's Uchiha clan. Because she was raised only by her mother without having her father around, Sarada initially struggles to understand who she is or what she's supposed to be. After meeting him with the help of Naruto Uzumaki, Sarada comes to believe that she is defined by the connections she has with others, and as a member of Team Konohamaru, she seeks to someday become Hokage so that she can connect with as many people as possible.",
+            name = "GOT7",
+            image = "/images/got7.jpg",
+            about = "GOT7, Güney Koreli bir K-pop grubudur.Çok uluslu olan grupta Güney Kore, Amerika, Hong Kong ve Taylandlı üyeler vardır. İki üyesi, JB ve Jinyoung, 2012 yılında JJ Project olarak çıkış yaptılar. Grubun \"Dream Knight\" isimli bir mini dizisi vardır.Grubun şarkılarında ve performanslarında çok ''tricking'' bulunduğu için üst düzey grup GOT7 sahne performanslarıyla dikkat çekti. 20 Ocak 2014'te grubun ilk albümleri olan \"Got it\" yayınlandı.",
             rating = 4.9,
-            power = 95,
-            month = "Mar",
-            day = "31st",
+            power = 93,
+            month = "Ocak",
+            day = "2014",
             family = listOf(
-                "Sasuke Uchiha",
-                "Sakura Uchiha"
+                "Mark",
+                "JB",
+                "Jackson",
+                "Jin-young",
+                "Youngjae",
+                "BamBam",
+                "Yugyeom"
             ),
             abilities = listOf(
-                "Sharingan",
-                "Strength",
-                "Intelligence"
+                "You Calling My Name",
+                "Just right",
+                "NOT BY THE MOON",
+                "NANANA",
+                "하드 캐리 Hard Carry",
+                "Two",
+                "TRUTH"
             ),
             natureTypes = listOf(
-                "Lightning",
-                "Wind",
-                "Fire"
+                "K-pop"
             )
         ),
         Hero(
             id = 6,
-            name = "Mitsuki",
-            image = "/images/mitsuki.jpg",
-            about = "Mitsuki (ミツキ, Mitsuki) is a synthetic human that was created as a partial clone of Orochimaru. Immigrating to Konohagakure to confirm whether or not Boruto Uzumaki was his \"sun\", he became a shinobi and was placed on Team Konohamaru. Mitsuki was created as a clone of Orochimaru, being cultivated from the same embryo as at least one older \"Mitsuki\", and raised in a test tube.",
-            rating = 4.9,
-            power = 95,
-            month = "Jul",
-            day = "25th",
+            name = "iKon",
+            image = "/images/ikon.jpeg",
+            about = "iKON (Kore: 아이콘), YG Entertainment tarafından kurulan ve 15 Eylül 2015 yılında çıkış yapan Güney Koreli bir erkek grubudur.Grup ilk kez “WIN: Who is Next” isimli TV programında Takım B olarak tanıtıldı. Daha sonra 2014’te “Mix&Match” isimli programda son yedi üye belirlendi ve grubun üyeleri böylece kesinleşmiş oldu. Grubun ismi  ingilizce “Icon” kelimesinden türetilmiştir. “C” yerine “K” harfi kullanılarak K-Pop kültürüne gönderme yapılıyor. Hayranlarına \"iKONIC\" denilmektedir. ",
+            rating = 4.2,
+            power = 92,
+            month = "Eylül ",
+            day = "2015",
             family = listOf(
-                "Orochimaru",
-                "Log"
+                "Song",
+                "Jay",
+                "Bobby",
+                "June",
+                "DK",
+                "Chan"
             ),
             abilities = listOf(
-                "Senin Mode",
-                "Transformation",
-                "Intelligence"
+                "LOVE SCENARIO",
+                "BUT YOU",
+                "Strength",
+                "KILLING ME",
+                "BEST FRIEND",
+                "Why Why Why",
             ),
             natureTypes = listOf(
-                "Lightning",
-                "Wind"
+                "R&B",
+                "K-pop",
+                "Hip hop"
             )
         )
     )
     override val page3 = listOf(
         Hero(
             id = 7,
-            name = "Kawaki",
-            image = "/images/kawaki.jpg",
-            about = "Kawaki (カワキ, Kawaki) is a child raised by Kara to be the future vessel for Isshiki Ōtsutsuki and the key to the fulfilment of their greatest wish.[1] After being brought to Konohagakure by Team 7, he is taken in by Naruto Uzumaki who raises him as his own, during which he develops a brotherly bond with Boruto Uzumaki to solve the mystery of the Kāma.",
-            rating = 4.2,
-            power = 92,
-            month = "Jan",
-            day = "1st",
+            name = "TWICE",
+            image = "/images/twice.jpg",
+            about = "Sixteen isimli reality programı aracılığıyla JYP Entertainment tarafından oluşturulan dokuz üyeli K-Pop kız grubudur.Twice, 2016'da yayınlamış olduğu \"Cheer Up\" single'ı ile üne kavuştu. Şarkı Gaon Digital Chart (가온 디지털 차트)'ta birinci oldu ve \"Yılın En İyi Single\"ı ünvanına sahip oldu. Bu şarkı aynı zamanda Melon Music Awards ve Mnet Asian Music Awards'ta \"Yılın En İyi Şarkısı\" ödüllerini de kazandı.",
+            rating = 5.0,
+            power = 98,
+            month = "Ekim",
+            day = "2015",
             family = listOf(
-                "Kokatsu"
+                "Nayeon",
+                "Tzuyu",
+                "Momo",
+                "Sana",
+                "Jihyo",
+                "Mina",
+                "Dahyun",
+                "Jeongyeon",
+                "Chaeyoung"
             ),
             abilities = listOf(
-                "Karma",
-                "Transformation",
-                "Strength"
+                "The Feels",
+                "FANCY",
+                "What is Love",
+                "SCIENTIST",
+                "CHEER UP",
+                "LIKEY",
+                "SIGNAL",
+                "ICAN'T STOP ME",
             ),
             natureTypes = listOf(
-                "Fire"
+                "K-pop",
+                "J-pop",
+                "dans-pop",
+                "EDM",
+                "bubblegum pop"
             )
         ),
         Hero(
             id = 8,
-            name = "Orochimaru",
-            image = "/images/orochimaru.jpg",
-            about = "Orochimaru (大蛇丸, Orochimaru) is one of Konohagakure's legendary Sannin. With a life-ambition to learn all of the world's secrets, Orochimaru seeks immortality so that he might live all of the lives necessary to accomplish his task. After being caught red-handed performing unethical experiments on his fellow citizens for the sake of this immortality, Orochimaru defected from Konoha.",
+            name = "ENHYPEN",
+            image = "/images/ENHYPEN.jpg",
+            about = "ENHYPEN 7 üyeden oluşan Güney Koreli Kpop grubudur. Grup Bighit Entertainment ve CJ Entertainment'in yapımını üstlendiği I-Land yarışmasının kazananlarından oluşturulmuştur. Grup resmi çıkışını 30 Kasım 2020'de BORDER: Day One albümü Given-Taken şarkısı ile yapmıştır.Grup isminin anlamı: ENHYPEN3 kelimenin  birleşmesiyle oluşturulmuştur.Bunlar Bağ (Bağlantı) Keşif ve Büyüme\"Tek başına parlayan yedi ışık, birbirlerini keşfedip birlikte büyürler, birbirlerinin sınırlarını aşarak birleşik bir bütün oluştururlar.\"",
             rating = 4.5,
-            power = 97,
-            month = "Oct",
-            day = "27th",
+            power = 96,
+            month = "Kasım",
+            day = "2020",
             family = listOf(
-                "Mitsuki",
-                "Log"
+                "Yang Jungwon",
+                "Lee Heeseung",
+                "Jay Park",
+                "Jake Shim",
+                "Kim Sunoo",
+                "Park Sunghoon",
+                "Nishimura Riki(Ni-Ki)"
             ),
             abilities = listOf(
-                "Senin Mode",
-                "Transformation",
-                "Science"
+                "Polaroid Love",
+                "FEVER",
+                "Drunk-Dazed",
+                "Blessed-Cursed",
+                "Drunk-Dazed",
+                "Given-Taken",
+                "HEY TAYO"
             ),
             natureTypes = listOf(
-                "Lightning",
-                "Wind",
-                "Fire",
-                "Earth",
-                "Water"
+                "K-pop",
             )
         ),
         Hero(

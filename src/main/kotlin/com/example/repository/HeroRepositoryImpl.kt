@@ -24,11 +24,11 @@ class HeroRepositoryImpl : HeroRepository {
             id = 1,
             name = "BTS",
             image = "/images/bTS.jpg",
-            about = "Sasuke Uchiha (うちはサスケ, Uchiha Sasuke) is one of the last surviving members of Konohagakure's Uchiha clan. After his older brother, Itachi, slaughtered their clan, Sasuke made it his mission in life to avenge them by killing Itachi. He is added to Team 7 upon becoming a ninja and, through competition with his rival and best friend, Naruto Uzumaki.",
+            about = "BTS, diğer adıyla Bangtan Boys (방탄소년단), Hybe Corporation tarafından oluşturulan, 7 üyeden oluşan Güney Koreli grup. Grubun hayranlarına \"ARMY\" denmektedir. Jin, Suga, J-Hope, RM, Jimin, V ve Jungkook'dan oluşan yedili, albümlerinin çoğunu birlikte yazar ve birlikte üretir. Başlangıçta bir hip hop grubu olan müzikal tarzları, çok çeşitli türleri içerecek şekilde gelişti. Genellikle kişisel ve sosyal sorunlara odaklanan şarkı sözleri, ruh sağlığı, okul çağındaki gençliğin sorunları ve yaşlanma, kayıp, kendini sevme yolculuğu ve bireysellik temalarına değiniyor. Çalışmaları ayrıca genellikle edebiyat ve psikolojik kavramlara atıfta bulunur ve alternatif bir evren hikayesi içerir.",
             rating = 5.0,
-            power = 98,
-            month = "July",
-            day = "23rd",
+            power = 99,
+            month = "Mayıs",
+            day = "2013",
             family = listOf(
                 "Jin",
                 "Suga",
@@ -190,7 +190,7 @@ class HeroRepositoryImpl : HeroRepository {
             id = 6,
             name = "iKon",
             image = "/images/ikon.jpeg",
-            about = "iKON (Kore: 아이콘), YG Entertainment tarafından kurulan ve 15 Eylül 2015 yılında çıkış yapan Güney Koreli bir erkek grubudur.Grup ilk kez “WIN: Who is Next” isimli TV programında Takım B olarak tanıtıldı. Daha sonra 2014’te “Mix&Match” isimli programda son yedi üye belirlendi ve grubun üyeleri böylece kesinleşmiş oldu. Grubun ismi  ingilizce “Icon” kelimesinden türetilmiştir. “C” yerine “K” harfi kullanılarak K-Pop kültürüne gönderme yapılıyor. Hayranlarına \"iKONIC\" denilmektedir. ",
+            about = "iKON (Kore:아이콘), YG Entertainment tarafından kurulan ve 15 Eylül 2015 yılında çıkış yapan Güney Koreli bir erkek grubudur.Grup ilk kez “WIN: Who is Next” isimli TV programında Takım B olarak tanıtıldı. Daha sonra 2014’te “Mix&Match” isimli programda son yedi üye belirlendi ve grubun üyeleri böylece kesinleşmiş oldu. Grubun ismi  ingilizce “Icon” kelimesinden türetilmiştir. “C” yerine “K” harfi kullanılarak K-Pop kültürüne gönderme yapılıyor. Hayranlarına \"iKONIC\" denilmektedir. ",
             rating = 4.2,
             power = 92,
             month = "Eylül ",
@@ -273,11 +273,11 @@ class HeroRepositoryImpl : HeroRepository {
                 "Jake Shim",
                 "Kim Sunoo",
                 "Park Sunghoon",
-                "Nishimura Riki(Ni-Ki)"
+                "Nishimura Riki"
             ),
             abilities = listOf(
-                "Polaroid Love",
                 "FEVER",
+                "Polaroid Love",
                 "Drunk-Dazed",
                 "Blessed-Cursed",
                 "Drunk-Dazed",
@@ -288,146 +288,188 @@ class HeroRepositoryImpl : HeroRepository {
                 "K-pop",
             )
         ),
-        Hero(
-            id = 9,
-            name = "Kakashi",
-            image = "/images/kakashi.png",
-            about = "Kakashi Hatake (はたけカカシ, Hatake Kakashi) is a shinobi of Konohagakure's Hatake clan. Famed as Kakashi of the Sharingan (写輪眼のカカシ, Sharingan no Kakashi), he is one of Konoha's most talented ninja, regularly looked to for advice and leadership despite his personal dislike of responsibility. To his students on Team 7, Kakashi emphasises the importance of teamwork; he himself received this lesson, along with the Sharingan, from his childhood friend, Obito Uchiha.",
-            rating = 4.5,
-            power = 96,
-            month = "Sep",
-            day = "15th",
-            family = listOf(
-                "Sakumo"
-            ),
-            abilities = listOf(
-                "Intelligence",
-                "Strength"
-            ),
-            natureTypes = listOf(
-                "Lightning",
-                "Wind",
-                "Fire",
-                "Earth",
-                "Water"
+            Hero(
+                id = 9,
+                name = "Treasure",
+                image = "/images/treasure.jpg",
+                about = "Treasure (Hangul:트레저;Japonca:トレジャー; olarak yazılır.),YG Entertainment tarafından hayatta kalma programı olan YG Treasure Box aracılığıyla 2019 yılında kurulan Güney Koreli bir erkek grubudur.Ocak 2020 yılında Treasure, performans videoları \"Going Crazy\" tek dahil haftalık resimsel bültenleri yoluyla kamuoyuna yeniden tanıtıldı Debut öncesinde, Treasure 27 Mayıs'ta Billboard 's Social 50 listesinde 40 numarada yer alan en hızlı K-Pop grubu olarak kaydedildi ve kısa süre sonra 12 numaraya kadar zirveye ulaştı. ",
+                rating = 4.5,
+                power = 89,
+                month = " ",
+                day = "2019",
+                family = listOf(
+                    "Choi Hyunsuk",
+                    "Jihoon",
+                    "Yoshi",
+                    "Junkyu",
+                    "Mashiho",
+                    "Yoon Jaehyuk",
+                    "Asahi",
+                    "Bang Yedam",
+                    "Doyoung",
+                    "Haruto",
+                    "Park Jeongwoo",
+                    "So Junghwan"
+                ),
+                abilities = listOf(
+                    "DARARI",
+                    "JIKJIK",
+                    "I LOVE YOU",
+                    "U",
+                    "GOING CRAZY",
+                    "BOY"
+                ),
+                natureTypes = listOf(
+                    "K-pop",
+                    "Hip-Hop"
+                )
             )
-        )
     )
     override val page4 = listOf(
         Hero(
             id = 10,
-            name = "Isshiki",
-            image = "/images/ishiki.jpg",
-            about = "A thousand years ago, Isshiki came to Earth alongside Kaguya with the objective to plant a Tree to harvest its Chakra Fruit. While Kaguya, being lower-ranked, was planned to be sacrificed to create the Chakra Fruit, she instead turned on Isshiki, leaving him on the verge of death after destroying Isshiki's lower half. Encountering Jigen and not having the strength to implant a Kāma on him, Isshiki devised a desperate plan and shrunk himself to enter the monk's ear in order to survive his injury by absorbing Jigen's nutrients.",
-            rating = 5.0,
-            power = 100,
-            month = "Jan",
-            day = "1st",
+            name = "Ateez",
+            image = "/images/ateez.jpg",
+            about = "Ateez (Korece: 에이티즈, okunuşu: \"Ei-Teez\"), KQ Entertainment tarafından 2018 yılında oluşturulan sekiz üyeli gruptur.Grup ismi olan ATEEZ'in anlamı “A TEEnager Z”dır, aynı zamanda “KQ FELLAZ” olarak da bilinirler. Fanları için kullandıkları ad ''ATINY''dir. Bu kelime ATEEZ ve DESTINY kelimelerinin birleşimidir. ",
+            rating = 4.2,
+            power = 88,
+            month = "Ekim",
+            day = "2018",
             family = listOf(
-                "Otsutsuki Clan"
+                "Hongjoong",
+                "Seonghwa",
+                "Yunho",
+                "Yeosang",
+                "San",
+                "Mingi",
+                "Wooyoung",
+                "Jongho"
             ),
             abilities = listOf(
-                "Sukunahikona",
-                "Daikokuten",
-                "Byakugan",
-                "Space–Time",
-                "Intelligence"
+                "Deja Vu",
+                "Fireworks",
+                "Answer",
+                "WONDERLAND",
+                "INCEPTION",
+                "Promise",
+                "THANXX"
             ),
             natureTypes = listOf(
-                "Fire"
+                "K-pop",
+                "J-pop"
             )
         ),
         Hero(
             id = 11,
-            name = "Momoshiki",
-            image = "/images/momoshiki.jpg",
-            about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
-            rating = 3.9,
-            power = 98,
+            name = "IVE",
+            image = "/images/ıve.jpg",
+            about = " Ive (Korece:아이브; IVE olarak stilize edilmiştir) Starship Entertainment tarafından kurulmuş bir Güney Koreli kız grubudur.Grubun adı Ive, \"I have\" için bir kısaltmadır . İzleyiciye \"sahip olduğum\" şeyi güvenle gösterme fikrini ima eder. Büyüyen bir kız grubunun hikayesini anlatmak yerine, baştan \"tam bir kız grubunu\" canlandırmaya çalışır.",
+            rating = 4.5,
+            power = 89,
             month = "Jan",
-            day = "1st",
+            day = "2021",
             family = listOf(
-                "Otsutsuki Clan"
+                "Yujin",
+                "Gaeul",
+                "Kral",
+                "Wonyoung",
+                "Liz",
+                "Leeseo"
             ),
             abilities = listOf(
-                "Rinnegan",
-                "Byakugan",
-                "Strength"
+                "LOVE DIVE",
+                "ELEVEN",
+                "ROYEL",
+                "Take ıt"
             ),
             natureTypes = listOf(
-                "Fire",
-                "Lightning",
-                "Wind",
-                "Water",
-                "Earth"
+                "K-pop"
             )
         ),
         Hero(
             id = 12,
-            name = "Urashiki",
-            image = "/images/urashiki.jpg",
-            about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
-            rating = 3.4,
-            power = 95,
-            month = "Jan",
-            day = "1st",
+            name = "Everglow",
+            image = "/images/everglow.jpg",
+            about = "Everglow (에버글로우) Yuehua Entertainment tarafından oluşturulan Güney Koreli kız grubu. Bu grup adını İngilizce kökenli ‘Everglow’dan alıyor. ’Yaprak dökmeyen’ anlamına gelen Everglow Grubu’nda altı kişi bulunuyor. Everglow Grubu 2020 yılında Amerika Birleşik Devletleri’nde düzenlenen Everlasting Turu ile daha çok bilinirliliğe ulaştı.",
+            rating = 4.2,
+            power = 88,
+            month = "Mart",
+            day = "2019",
             family = listOf(
-                "Otsutsuki Clan"
+                "E:U",
+                "Sihyeon",
+                "Mia",
+                "Onda",
+                "Aisha",
+                "Yiren"
             ),
             abilities = listOf(
-                "Space–Time",
-                "Rinnegan",
-                "Byakugan"
+                "Pirate",
+                "DUN DUN",
+                "LA DI DA",
+                "FIRST",
+                "Adios"
             ),
             natureTypes = listOf(
-                "Fire",
-                "Lightning",
-                "Wind",
-                "Earth"
+                "K-pop"
             )
         )
     )
     override val page5 = listOf(
         Hero(
             id = 13,
-            name = "Code",
-            image = "/images/code.jpg",
-            about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
-            rating = 4.8,
-            power = 99,
-            month = "Jan",
-            day = "1st",
+            name = "LE SSERAFIM",
+            image = "/images/le-sserafım.jpg",
+            about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu.Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
+            rating = 4.6,
+            power = 91,
+            month = "Mayıs",
+            day = "2022",
             family = listOf(
-                "Unknown"
+                "Sakura",
+                "Garam",
+                "Eunchae",
+                "Chaewon",
+                "Kazuha",
+                "Yunjin"
             ),
             abilities = listOf(
-                "White Karma",
-                "Transformation",
-                "Genjutsu"
+                "FEARLESS",
+                "Blue Flame",
+                "Soul Grapes",
+                "The Great Mermaid",
             ),
             natureTypes = listOf(
-                "Unknown"
+                "K-pop"
             )
         ),
         Hero(
             id = 14,
-            name = "Amado",
-            image = "/images/amado.jpg",
-            about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
-            rating = 5.0,
-            power = 90,
-            month = "Jan",
-            day = "1st",
+            name = "(G)I-DLE",
+            image = "/images/a(g)i-dle.jpg",
+            about = "(G)I-DLE (Korece:(여자)아이들; RR: Yeoja Aideul),stilize olarak (G)I-DLE, 2 Mayıs 2018 tarihinde Cube Entertainment tarafından oluşturulan Güney Koreli kız grubudur.“to be idle” İngilizce’de “boşta olmak, hiçbir şey yapmamak” anlamına gelir. Soyeon bu anlamdan memnun değildi ve kendi anlamını bulmak istedi. Grup arkadaşları da Soyeon’la aynı görüşü savunarak grubun ismini (G)I-DLE olarak değiştirdi.  ",
+            rating = 4.7,
+            power = 93,
+            month = "Mayıs",
+            day = "2018",
             family = listOf(
-                "Unknown"
+                "Miyeon",
+                "Minnie",
+                "Soyeon",
+                "Yuqi",
+                "Shuhua",
             ),
             abilities = listOf(
-                "Science",
-                "Intelligence",
-                "Trickery"
+                "TOMBOY",
+                "MY BAG",
+                "POP/STARS",
+                "MORE",
+                "THE BADDEST",
             ),
             natureTypes = listOf(
-                "Unknown"
+                "K-pop",
+                "hip hop",
+                "EDM",
             )
         ),
         Hero(

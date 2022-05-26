@@ -273,138 +273,182 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
         ),
         Hero(
             id = 9,
-            name = "Isshiki",
-            image = "/images/ishiki.jpg",
-            about = "A thousand years ago, Isshiki came to Earth alongside Kaguya with the objective to plant a Tree to harvest its Chakra Fruit. While Kaguya, being lower-ranked, was planned to be sacrificed to create the Chakra Fruit, she instead turned on Isshiki, leaving him on the verge of death after destroying Isshiki's lower half. Encountering Jigen and not having the strength to implant a Kāma on him, Isshiki devised a desperate plan and shrunk himself to enter the monk's ear in order to survive his injury by absorbing Jigen's nutrients.",
-            rating = 5.0,
-            power = 100,
-            month = "Jan",
-            day = "1",
+            name = "Treasure",
+            image = "/images/treasure.jpg",
+            about = "Treasure (Hangul:트레저;Japonca:トレジャー; olarak yazılır.),YG Entertainment tarafından hayatta kalma programı olan YG Treasure Box aracılığıyla 2019 yılında kurulan Güney Koreli bir erkek grubudur.Ocak 2020 yılında Treasure, performans videoları \"Going Crazy\" tek dahil haftalık resimsel bültenleri yoluyla kamuoyuna yeniden tanıtıldı Debut öncesinde, Treasure 27 Mayıs'ta Billboard 's Social 50 listesinde 40 numarada yer alan en hızlı K-Pop grubu olarak kaydedildi ve kısa süre sonra 12 numaraya kadar zirveye ulaştı.",
+            rating = 4.5,
+            power = 89,
+            month = " ",
+            day = "2019",
             family = listOf(
-                "Otsutsuki Clan"
+                "Choi Hyunsuk",
+                "Jihoon",
+                "Yoshi",
+                "Junkyu",
+                "Mashiho",
+                "Yoon Jaehyuk",
+                "Asahi",
+                "Bang Yedam",
+                "Doyoung",
+                "Haruto",
+                "Park Jeongwoo",
+                "So Junghwan"
             ),
             abilities = listOf(
-                "Sukunahikona",
-                "Daikokuten",
-                "Byakugan",
-                "Space–Time",
-                "Intelligence"
+                "DARARI",
+                "JIKJIK",
+                "I LOVE YOU",
+                "U",
+                "GOING CRAZY",
+                "BOY"
             ),
             natureTypes = listOf(
-                "Fire"
+                "K-pop",
+                "Hip-Hop"
             )
         ),
         Hero(
             id = 10,
-            name = "Momoshiki",
-            image = "/images/momoshiki.jpg",
-            about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
-            rating = 3.9,
-            power = 98,
-            month = "Jan",
-            day = "1",
+            name = "Ateez",
+            image = "/images/ateez.jpg",
+            about = "Ateez (Korece: 에이티즈, okunuşu: \"Ei-Teez\"), KQ Entertainment tarafından 2018 yılında oluşturulan sekiz üyeli gruptur.Grup ismi olan ATEEZ'in anlamı “A TEEnager Z”dır, aynı zamanda “KQ FELLAZ” olarak da bilinirler. Fanları için kullandıkları ad ''ATINY''dir. Bu kelime ATEEZ ve DESTINY kelimelerinin birleşimidir. ",
+            rating = 4.2,
+            power = 88,
+            month = "Ekim",
+            day = "2018",
             family = listOf(
-                "Otsutsuki Clan"
+                "Hongjoong",
+                "Seonghwa",
+                "Yunho",
+                "Yeosang",
+                "San",
+                "Mingi",
+                "Wooyoung",
+                "Jongho"
             ),
             abilities = listOf(
-                "Rinnegan",
-                "Byakugan",
-                "Strength"
+                "Deja Vu",
+                "Fireworks",
+                "Answer",
+                "WONDERLAND",
+                "INCEPTION",
+                "Promise",
+                "THANXX"
             ),
             natureTypes = listOf(
-                "Fire",
-                "Lightning",
-                "Wind",
-                "Water",
-                "Earth"
+                "K-pop",
+                "J-pop"
             )
         ),
         Hero(
             id = 11,
-            name = "Urashiki",
-            image = "/images/urashiki.jpg",
-            about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
-            rating = 3.4,
-            power = 95,
+            name = "IVE",
+            image = "/images/ıve.jpg",
+            about = " Ive (Korece:아이브; IVE olarak stilize edilmiştir) Starship Entertainment tarafından kurulmuş bir Güney Koreli kız grubudur.Grubun adı Ive, \"I have\" için bir kısaltmadır . İzleyiciye \"sahip olduğum\" şeyi güvenle gösterme fikrini ima eder. Büyüyen bir kız grubunun hikayesini anlatmak yerine, baştan \"tam bir kız grubunu\" canlandırmaya çalışır.",
+            rating = 4.5,
+            power = 89,
             month = "Jan",
-            day = "1",
+            day = "2021",
             family = listOf(
-                "Otsutsuki Clan"
+                "Yujin",
+                "Gaeul",
+                "Kral",
+                "Wonyoung",
+                "Liz",
+                "Leeseo"
             ),
             abilities = listOf(
-                "Space–Time",
-                "Rinnegan",
-                "Byakugan"
+                "LOVE DIVE",
+                "ELEVEN",
+                "ROYEL",
+                "Take ıt"
             ),
             natureTypes = listOf(
-                "Fire",
-                "Lightning",
-                "Wind",
-                "Earth"
+                "K-pop"
             )
         ),
         Hero(
             id = 12,
-            name = "Code",
-            image = "/images/code.jpg",
-            about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
-            rating = 4.8,
-            power = 99,
-            month = "Jan",
-            day = "1",
+            name = "Everglow",
+            image = "/images/everglow.jpg",
+            about = "Everglow (에버글로우) Yuehua Entertainment tarafından oluşturulan Güney Koreli kız grubu. Bu grup adını İngilizce kökenli ‘Everglow’dan alıyor. ’Yaprak dökmeyen’ anlamına gelen Everglow Grubu’nda altı kişi bulunuyor. Everglow Grubu 2020 yılında Amerika Birleşik Devletleri’nde düzenlenen Everlasting Turu ile daha çok bilinirliliğe ulaştı.",
+            rating = 4.2,
+            power = 88,
+            month = "Mart",
+            day = "2019",
             family = listOf(
-                "Unknown"
+                "E:U",
+                "Sihyeon",
+                "Mia",
+                "Onda",
+                "Aisha",
+                "Yiren"
             ),
             abilities = listOf(
-                "White Karma",
-                "Transformation",
-                "Genjutsu"
+                "Pirate",
+                "DUN DUN",
+                "LA DI DA",
+                "FIRST",
+                "Adios"
             ),
             natureTypes = listOf(
-                "Unknown"
+                "K-pop"
             )
         ),
         Hero(
             id = 13,
-            name = "Amado",
-            image = "/images/amado.jpg",
-            about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
-            rating = 5.0,
-            power = 90,
-            month = "Jan",
-            day = "1",
+            name = "LE SSERAFIM",
+            image = "/images/le-sserafım.jpg",
+            about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu.Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
+            rating = 4.6,
+            power = 91,
+            month = "Mayıs",
+            day = "2022",
             family = listOf(
-                "Unknown"
+                "Sakura",
+                "Garam",
+                "Eunchae",
+                "Chaewon",
+                "Kazuha",
+                "Yunjin"
             ),
             abilities = listOf(
-                "Science",
-                "Intelligence",
-                "Trickery"
+                "FEARLESS",
+                "Blue Flame",
+                "Soul Grapes",
+                "The Great Mermaid",
             ),
             natureTypes = listOf(
-                "Unknown"
+                "K-pop"
             )
         ),
         Hero(
             id = 14,
-            name = "Koji",
-            image = "/images/koji.jpg",
-            about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
-            rating = 4.5,
-            power = 90,
-            month = "Jan",
-            day = "1",
+            name = "(G)I-DLE",
+            image = "/images/a(g)i-dle.jpg",
+            about = "(G)I-DLE (Korece:(여자)아이들; RR: Yeoja Aideul),stilize olarak (G)I-DLE, 2 Mayıs 2018 tarihinde Cube Entertainment tarafından oluşturulan Güney Koreli kız grubudur.“to be idle” İngilizce’de “boşta olmak, hiçbir şey yapmamak” anlamına gelir. Soyeon bu anlamdan memnun değildi ve kendi anlamını bulmak istedi. Grup arkadaşları da Soyeon’la aynı görüşü savunarak grubun ismini (G)I-DLE olarak değiştirdi.  ",
+            rating = 4.7,
+            power = 93,
+            month = "Mayıs",
+            day = "2018",
             family = listOf(
-                "Jiraiya"
+                "Miyeon",
+                "Minnie",
+                "Soyeon",
+                "Yuqi",
+                "Shuhua",
             ),
             abilities = listOf(
-                "Senin Mode",
-                "Rasengan",
-                "Shadow Clone"
+                "TOMBOY",
+                "MY BAG",
+                "POP/STARS",
+                "MORE",
+                "THE BADDEST",
             ),
             natureTypes = listOf(
-                "Fire",
-                "Earth"
+                "K-pop",
+                "hip hop",
+                "EDM",
             )
         ),
         Hero(

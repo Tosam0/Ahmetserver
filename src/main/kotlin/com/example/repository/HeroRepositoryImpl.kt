@@ -362,8 +362,8 @@ class HeroRepositoryImpl : HeroRepository {
         Hero(
             id = 11,
             name = "IVE",
-            image = "/images/ıve.jpg",
-            about = " Ive (Korece:아이브; IVE olarak stilize edilmiştir) Starship Entertainment tarafından kurulmuş bir Güney Koreli kız grubudur.Grubun adı Ive, \"I have\" için bir kısaltmadır . İzleyiciye \"sahip olduğum\" şeyi güvenle gösterme fikrini ima eder. Büyüyen bir kız grubunun hikayesini anlatmak yerine, baştan \"tam bir kız grubunu\" canlandırmaya çalışır.",
+            image = "/images/aıve.jpg",
+            about = "Ive (Korece:아이브; IVE olarak stilize edilmiştir) Starship Entertainment tarafından kurulmuş bir Güney Koreli kız grubudur.Grubun adı Ive, \"I have\" için bir kısaltmadır . İzleyiciye \"sahip olduğum\" şeyi güvenle gösterme fikrini ima eder. Büyüyen bir kız grubunun hikayesini anlatmak yerine, baştan \"tam bir kız grubunu\" canlandırmaya çalışır.",
             rating = 4.5,
             power = 89,
             month = " ",

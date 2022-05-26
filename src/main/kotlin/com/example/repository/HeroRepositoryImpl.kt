@@ -362,7 +362,7 @@ class HeroRepositoryImpl : HeroRepository {
         Hero(
             id = 11,
             name = "IVE",
-            image = "/images/exo.jpg",
+            image = "/images/tive.jpg",
             about = "Ive (Korece:아이브; IVE olarak stilize edilmiştir) Starship Entertainment tarafından kurulmuş bir Güney Koreli kız grubudur.Grubun adı Ive, \"I have\" için bir kısaltmadır . İzleyiciye \"sahip olduğum\" şeyi güvenle gösterme fikrini ima eder. Büyüyen bir kız grubunun hikayesini anlatmak yerine, baştan \"tam bir kız grubunu\" canlandırmaya çalışır.",
             rating = 4.5,
             power = 89,
@@ -419,7 +419,7 @@ class HeroRepositoryImpl : HeroRepository {
         Hero(
             id = 13,
             name = "LE SSERAFIM",
-            image = "/images/le-sserafım.jpg",
+            image = "/images/lesserafım.jpg",
             about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu.Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
             rating = 4.6,
             power = 91,

@@ -446,7 +446,7 @@ class HeroRepositoryImpl : HeroRepository {
         Hero(
             id = 14,
             name = "(G)I-DLE",
-            image = "/images/a(g)i-dle.jpg",
+            image = "/images/dle.jpg",
             about = "(G)I-DLE (Korece:(여자)아이들; RR: Yeoja Aideul),stilize olarak (G)I-DLE, 2 Mayıs 2018 tarihinde Cube Entertainment tarafından oluşturulan Güney Koreli kız grubudur.“to be idle” İngilizce’de “boşta olmak, hiçbir şey yapmamak” anlamına gelir. Soyeon bu anlamdan memnun değildi ve kendi anlamını bulmak istedi. Grup arkadaşları da Soyeon’la aynı görüşü savunarak grubun ismini (G)I-DLE olarak değiştirdi.  ",
             rating = 4.7,
             power = 93,

@@ -398,7 +398,7 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
         Hero(
             id = 13,
             name = "LE SSERAFIM",
-            image = "/images/lesserafım.jpg",
+            image = "/images/alesserafım.jpg",
             about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu.Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
             rating = 4.6,
             power = 91,
@@ -453,25 +453,33 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
         ),
         Hero(
             id = 15,
-            name = "Edward Elric",
-            image = "/images/edward-elric.jpg",
-            about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
-            rating = 4.8,
-            power = 99,
-            month = "Jan",
-            day = "1st",
+            name = "ITZY",
+            image = "/images/ıtzy.jpg",
+            about = "Itzy (Korece:있지; stil olarak ITZY) JYP Entertainment tarafından oluşturulan Güney Koreli kız grubudur.Anlamı: ITZY kelimesi Korecede sahip olmak anlamına geliyor. Yani Kızların (üyelerin) sizin sahip olmak istediğiniz bütün güzelliklere sahip olduğu anlamına geliyor.",
+            rating = 4.5,
+            power = 90,
+            month = "Şubat",
+            day = "2019",
             family = listOf(
-                "Unknown"
+                "Yeji",
+                "Ryujin",
+                "Lia",
+                "Chaeryeong",
+                "Yuna"
             ),
             abilities = listOf(
-                "White Karma",
-                "Transformation",
-                "Genjutsu"
+                "LOCO",
+                "WANNABE",
+                "In the morning",
+                "Not Shy",
+                "Voltage"
             ),
             natureTypes = listOf(
-                "Unknown"
+                "K-pop"
             )
-        ),Hero(
+
+        ),
+        Hero(
             id = 16,
             name = "zaraki-kenpachi",
             image = "/images/zaraki-kenpachi.jpg",

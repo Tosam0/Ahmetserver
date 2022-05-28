@@ -419,7 +419,7 @@ class HeroRepositoryImpl : HeroRepository {
         Hero(
             id = 13,
             name = "LE SSERAFIM",
-            image = "/images/lesserafım.jpg",
+            image = "/images/alesserafım.jpg",
             about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu.Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
             rating = 4.6,
             power = 91,
@@ -474,24 +474,29 @@ class HeroRepositoryImpl : HeroRepository {
         ),
         Hero(
             id = 15,
-            name = "Koji",
-            image = "/images/koji.jpg",
-            about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
+            name = "ITZY",
+            image = "/images/ıtzy.jpg",
+            about = "Itzy (Korece:있지; stil olarak ITZY) JYP Entertainment tarafından oluşturulan Güney Koreli kız grubudur.Anlamı: ITZY kelimesi Korecede sahip olmak anlamına geliyor. Yani Kızların (üyelerin) sizin sahip olmak istediğiniz bütün güzelliklere sahip olduğu anlamına geliyor.",
             rating = 4.5,
             power = 90,
-            month = "Jan",
-            day = "1st",
+            month = "Şubat",
+            day = "2019",
             family = listOf(
-                "Jiraiya"
+                "Yeji",
+                "Ryujin",
+                "Lia",
+                "Chaeryeong",
+                "Yuna"
             ),
             abilities = listOf(
-                "Senin Mode",
-                "Rasengan",
-                "Shadow Clone"
+                "LOCO",
+                "WANNABE",
+                "In the morning",
+                "Not Shy",
+                "Voltage"
             ),
             natureTypes = listOf(
-                "Fire",
-                "Earth"
+                "K-pop"
             )
         )
     )

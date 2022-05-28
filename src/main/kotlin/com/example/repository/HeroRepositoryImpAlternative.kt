@@ -398,7 +398,7 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
         Hero(
             id = 13,
             name = "LE SSERAFIM",
-            image = "/images/lesserafım.jpg",
+            image = "/images/serafim.jpg",
             about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu.Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
             rating = 4.6,
             power = 91,

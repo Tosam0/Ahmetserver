@@ -398,7 +398,7 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
         Hero(
             id = 13,
             name = "LE SSERAFIM",
-            image = "/images/alesserafım.jpg",
+            image = "/images/lesserafım.jpg",
             about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu.Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
             rating = 4.6,
             power = 91,
@@ -455,7 +455,7 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
             id = 15,
             name = "ITZY",
             image = "/images/tzy.jpg",
-            about = "Itzy (Korece:있지; stil olarak ITZY) JYP Entertainment tarafından oluşturulan Güney Koreli kız grubudur.Anlamı: ITZY kelimesi Korecede sahip olmak anlamına geliyor. Yani Kızların (üyelerin) sizin sahip olmak istediğiniz bütün güzelliklere sahip olduğu anlamına geliyor.",
+            about = "Itzy (Korece : 있지; stil olarak ITZY) JYP Entertainment tarafından oluşturulan Güney Koreli kız grubudur.Anlamı: ITZY kelimesi Korecede sahip olmak anlamına geliyor. Yani Kızların (üyelerin) sizin sahip olmak istediğiniz bütün güzelliklere sahip olduğu anlamına geliyor.",
             rating = 4.5,
             power = 90,
             month = "Şubat",

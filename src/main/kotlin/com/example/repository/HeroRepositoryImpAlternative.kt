@@ -399,7 +399,7 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
             id = 13,
             name = "LE SSERAFIM",
             image = "/images/serafim.jpg",
-            about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu.Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
+            about = "Le Sserafim Source Music ve Hybe Corporation tarafından kurulan Güney Koreli kız grubu. Grubun adı Le Sserafim, \"Ben Korkusuzum\" ifadesinin bir anagramıdır.",
             rating = 4.6,
             power = 91,
             month = "Mayıs",
@@ -481,36 +481,72 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
         ),
         Hero(
             id = 16,
-            name = "zaraki-kenpachi",
-            image = "/images/zaraki-kenpachi.jpg",
-
-            about = "Kendi Haritanızı Oluşturun Kendinize ait haritalar oluşturarak farklı planları hızlandırabilirsiniz. Oluşturacağınız harita ile gideceğiniz lokasyonu tekrar aramanıza gerek kalmadan haritayı tıklamanız yeterli olacaktır. Kendinize özel haritalar oluşturabilmek için uygulamanın sol köşedeki menü düğmesine (üç çizgi), ardından Yerleriniz'e basın. Bu sekmeden Haritalar'a gidin ve alttaki Harita Oluştur'a basın (veya daha önce yapmış olduğunuz bir haritaya tıklayın). Bu araç, özellikle daha önce hiç gitmediğiniz bölgeleri keşfetmenize yarayacak. Herhangi bir gezi ya da tatil planınız varsa haritaya işaret yerleştirebilir ve farklı gruplara ayırabilirsiniz. Böylece zamanınızı en iyi şekilde değerlendirebilirsiniz. Arkadaşlarınızla ya da ailenizle gideceğiniz bir tatile ortak çalışan ekleyerek 'paylaş' seçeneğini kullanabilirsiniz. Bu şekilde harita üzerinde tatil planında her katılımcı ilginç görülen yerleri işaretleyebilir ve herkesin görmesini sağlayabilir.",
-            rating = 2.1,
-            power = 99,
-            month = "Jan",
-            day = "1st",
+            name = "Stray Kids",
+            image = "/images/straykids.jpg",
+            about = "Stray Kids (Korece: 스트레이 키즈; RR: Seuteurei kijeu; kısaltılmış hali SKZ) JYP Entertainment tarafından kurulan Güney Koreli erkek müzik grubudur.Grubun hayranlarına \"STAY\" denmektedir.",
+            rating = 4.8,
+            power = 96,
+            month = "Mart",
+            day = "2018",
             family = listOf(
-                "Ahmet",
-                "Mehmet",
-                "Ahmet",
-                "Mehmet",
-                "Ahmet",
-                "Mehmet" , "Ahmet",
-                "Mehmet",
-                "Ahmet",
-                "Mehmet",
-                "Ahmet",
-                "Mehmet"
+                "Bang Chan",
+                "Lee Know",
+                "Changbin",
+                "Hyunjin",
+                "Han",
+                "Felix",
+                "Seungmin",
+                "I.N"
             ),
             abilities = listOf(
-                "White Karma",
-                "Transformation",
-                "Genjutsu"
+                "MANIAC",
+                "Thunderous",
+                "Charmer",
+                "VENOM",
+                "God's Menu",
+                "Back Door",
+                "MIROH"
             ),
             natureTypes = listOf(
-                "Unknown"
+                "K-pop",
+                "hip hop",
+                "pop",
+                "R&B"
+
             )
+        ),
+
+        Hero(
+         id = 17,
+        name = "Red Velvet",
+        image = "/images/red_velvet.jpg",
+        about = "Red Velvet (Korece: 레드벨벳) S.M. Entertainment tarafından 2014'te oluşturulan bir Güney Koreli kız grubudur.Grubun adı konseptlerindeki iki farklı imajı simgeler. \"Red\" grubun daha canlı ve cesur, \"Velvet\" ise grubun daha zarif ve narin yanını simgeler.",
+        rating = 4.8,
+        power = 96,
+        month = "Mart",
+        day = "2014",
+        family = listOf(
+            "Irene",
+            "Seulgi",
+            "Wendy",
+            "Joy",
+            "Yeri",
+        ),
+        abilities = listOf(
+            "Feel My Rhythm",
+            "Psycho",
+            "Quendom",
+            "Bad Boy",
+            "Red Flavor"
+        ),
+        natureTypes = listOf(
+            "K-pop",
         )
+    )
+
+
+
+
 
 
 

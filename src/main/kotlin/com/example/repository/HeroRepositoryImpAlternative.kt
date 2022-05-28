@@ -454,7 +454,7 @@ class HeroRepositoryImpAlternative:HeroRepositoryAlternative {
         Hero(
             id = 15,
             name = "ITZY",
-            image = "/images/ıtzy.jpg",
+            image = "/images/aıtzy.jpg",
             about = "Itzy (Korece:있지; stil olarak ITZY) JYP Entertainment tarafından oluşturulan Güney Koreli kız grubudur.Anlamı: ITZY kelimesi Korecede sahip olmak anlamına geliyor. Yani Kızların (üyelerin) sizin sahip olmak istediğiniz bütün güzelliklere sahip olduğu anlamına geliyor.",
             rating = 4.5,
             power = 90,
